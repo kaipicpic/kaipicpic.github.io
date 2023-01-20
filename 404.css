@@ -3,7 +3,6 @@ body {
 }
 
 div {
-  font-family: 'Source Serif Pro', serif;
   text-align: center;
   color: #bdbfd9;
 }
@@ -39,9 +38,4 @@ a.nav-link:active
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
-}
-
-@font-face {
-  font-family: myFirstFont;
-  src: url(sansation_light.woff);
 }
