@@ -1,0 +1,40 @@
+body {
+  background-color: #0e1319;
+}
+
+h5 {
+  align-text: center;
+}
+
+div {
+  color: #bdbfd9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+}
+
+ a { 
+  text-decoration: none; 
+}
+
+a.nav-link:link
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #8282bd;
+   text-decoration: underline;
+}
+a.nav-link:active
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
