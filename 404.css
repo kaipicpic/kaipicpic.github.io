@@ -3,6 +3,7 @@ body {
 }
 
 div {
+  text-align: center;
   color: #bdbfd9;
 }
 
@@ -32,9 +33,9 @@ a.nav-link:active
 }
 
 .center-screen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
