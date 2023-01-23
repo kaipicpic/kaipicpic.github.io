@@ -39,3 +39,7 @@ a.nav-link:active
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
+
+.petals {
+  color: #e8c3d7;
+}
